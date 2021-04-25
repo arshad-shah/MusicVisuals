@@ -1,10 +1,11 @@
 # Music Visualiser Project
 
-Name:
+Name: Arshad shah
 
-Student Number: 
+Student Number: C19485866
 
 ## Instructions
+
 - Fork this repository and use it a starter project for your assignment
 - Create a new package named your student number and put all your code in this package.
 - You should start by creating a subclass of ie.tudublin.Visual
@@ -31,13 +32,16 @@ This is a bulleted list
 This is a numbered list
 
 1. Item
-1. Item
+2. Item
 
 This is a [hyperlink](http://bryanduggan.org)
 
 # Headings
+
 ## Headings
+
 #### Headings
+
 ##### Headings
 
 This is code:
@@ -80,10 +84,10 @@ This is a youtube video:
 
 This is a table:
 
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
 
+| Heading 1  | Heading 2                      |
+| ------------ | -------------------------------- |
+| Some stuff | Some more stuff in this column |
+| Some stuff | Some more stuff in this column |
+| Some stuff | Some more stuff in this column |
+| Some stuff | Some more stuff in this column |
