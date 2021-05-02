@@ -1,4 +1,4 @@
-package com.C19485866;
+package C19485866.com.C19485866;
 
 public class VisualException extends Throwable {
     /**

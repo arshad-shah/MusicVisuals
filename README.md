@@ -11,83 +11,29 @@ Student Number: C19485866
 - You should start by creating a subclass of ie.tudublin.Visual
 - There is an example visualiser called MyVisual in the example package
 - Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
+  ****
 
 # Description of the assignment
 
+In this assignement i use the Java processing library to create visuals that react to music.
+
 # Instructions
+
+To run the program,
+
+Open project in Visual studio code
+
+Go to the Folder "src/C19485866/com/C19485866/Main.java"
+
+Run the file.
+
 
 # How it works
 
+The system is controlled using the numpad it accepts numpad input from 1 to 4 each input cycles the system through the visuals.
+
 # What I am most proud of in the assignment
 
-# Markdown Tutorial
+Using the Processing Libraries has taught me Coordinates in a visual system, Trignometery, Frequency analysis.
 
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-2. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-
-## Headings
-
-#### Headings
-
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-
-| Heading 1  | Heading 2                      |
-| ------------ | -------------------------------- |
-| Some stuff | Some more stuff in this column |
-| Some stuff | Some more stuff in this column |
-| Some stuff | Some more stuff in this column |
-| Some stuff | Some more stuff in this column |
+And i am proud to show my skills in this assignment.

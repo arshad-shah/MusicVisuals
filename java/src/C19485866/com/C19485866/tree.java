@@ -1,4 +1,4 @@
-package com.C19485866;
+package C19485866.com.C19485866;
 
 import processing.core.PApplet;
 
@@ -26,7 +26,7 @@ public class tree extends MyVisual {
         for (int i = 0; i < mv.getAudioBuffer().size(); i++) {
             float c = PApplet.map(mv.getSmoothedAmplitude() * 10, 0, 1, 0, 255);
             mv.stroke(c, 255, 255);
-
+            mv.strokeWeight(c / 10);
             float a = (1000 / (float) mv.width) * 30f;
 
             theta = PApplet.radians(a);
@@ -35,8 +35,6 @@ public class tree extends MyVisual {
         mv.translate(mv.width / 2, mv.height);
 
         mv.line(0, 0, 0, -120);
-
-        mv.rect(10, 10, 10, 10);
 
         mv.line(10, 10, 10, -120);
 

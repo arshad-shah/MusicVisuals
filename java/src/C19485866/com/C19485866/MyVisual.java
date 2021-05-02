@@ -1,7 +1,6 @@
-package com.C19485866;
+package C19485866.com.C19485866;
 
 public class MyVisual extends Visual {
-    WaveForm wf;
     cube cu;
     rotatebands rb;
     spiral sp;
@@ -29,7 +28,6 @@ public class MyVisual extends Visual {
         // Call this instead to read audio from the microphone
         // startListening();
 
-        wf = new WaveForm(this);
         cu = new cube(this);
         rb = new rotatebands(this);
         sp = new spiral(this);
@@ -37,7 +35,7 @@ public class MyVisual extends Visual {
     }
 
     public void keyPressed() {
-        if (keyCode >= '0' && keyCode <= '9') {
+        if (keyCode >= '0' && keyCode < '5') {
             which = keyCode - '0';
         }
         if (keyCode == ' ') {
@@ -74,25 +72,24 @@ public class MyVisual extends Visual {
 
         // System.out.print("\nFrequency: " + freq);
         switch (which) {
-        case 1:
-            rb.render();
-            break;
+            case 1:
+                rb.render();
+                break;
 
-        case 2:
-            sp.render();
-            break;
+            case 2:
+                sp.render();
+                break;
 
-        case 3:
-            tr.render();
-            break;
+            case 3:
+                tr.render();
+                break;
 
-        case 4:
-            twocubes = false;
-            cu.render();
-            break;
-        default:
-            rb.render();
-            break;
+            case 4:
+                cu.render();
+                break;
+            default:
+                rb.render();
+                break;
         }
     }
 
